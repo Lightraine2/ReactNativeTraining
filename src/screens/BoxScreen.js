@@ -18,7 +18,7 @@ const styles = StyleSheet.create({
 
         borderWidth: 3,
         borderColor: 'black',
-        height: 200,
+        height: 200
 
     },
 
@@ -34,16 +34,19 @@ const styles = StyleSheet.create({
 
         borderWidth: 3,
         borderColor: 'red',
-        flex: 1
+        flex: 1,
+        ...StyleSheet.absoluteFillObject
 
     },
     textThreeStyle: {
 
         borderWidth: 3,
         borderColor: 'red',
-        flex: 1
+        flex: 1,
+        right: 40
 
     }
+
 });
 
 export default BoxScreen;
